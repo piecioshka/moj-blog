@@ -1,17 +1,15 @@
 ---
-title: Witajcie!
+title: Hello world!
 ---
 
-Ciasteczko
+This is simple listing of JavaScript code:
 
 ```js
 (function () {
     'use strict';
         
-    function as() {
-        
+    function foo() {
+        console.log('bar');
     }
-        
 })();
-
 ```
