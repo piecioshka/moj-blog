@@ -73,9 +73,30 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: clean-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+theme_config:
+  menu_title: Home
+  index_cover: /moj-blog/images/IMG_3502.jpg
+
+  # Header
+  menu:
+    Home: /
+    Contact: /contact/
+    Github:
+      url: https://github.com/piecioshka/moj-blog
+      icon: github
+    Twitter:
+      url: https://twitter.com/piecioshka
+      icon: twitter
+    YouTube:
+      url: https://youtube.com/piecioshka
+      icon: youtube
+    Facebook:
+      url: https://facebook.com/piecioshka
+      icon: facebook
