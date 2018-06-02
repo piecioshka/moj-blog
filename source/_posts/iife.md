@@ -21,18 +21,18 @@ This is simple listing of JavaScript code:
 })();
 ```
 
-You see that whole code is wrap by special function, which is wrap by brackets.
+You can see that the whole code is wrapped by special function by brackets.
 This syntax called `Imedietly Invoke Function Expression`, so `IIFE` _[ifi]_ in
 short way.
 
 ## Pros
 
-- function wrap some code which could define variable, so it is define in 
+- function wraps some code which could define variable, so it is defines in 
     a local scope
 - without any _module definition_ variable define in global namespace,
     which is called _anti-pattern_
 
 ## Cons
 
-- each wrap generate indentation
+- each wrap generates indentation
 - when project does not have any module
