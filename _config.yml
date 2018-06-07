@@ -101,3 +101,6 @@ theme_config:
     Facebook:
       url: https://facebook.com/piecioshka
       icon: facebook
+
+  comments:
+    disqus_shortname: piecioshka-test
