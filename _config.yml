@@ -83,6 +83,7 @@ deploy:
 theme_config:
   menu_title: Home
   index_cover: /moj-blog/images/IMG_3502.jpg
+  twitter_handle: piecioshka
 
   # Header
   menu:
