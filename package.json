@@ -6,7 +6,7 @@
         "version": "3.7.1"
     },
     "scripts": {
-        "upload-site": "gh-pages -d public/",
+        "upload-site": "NODE_DEBUG=gh-pages gh-pages -d public/",
         "predeploy": "hexo clean && hexo generate",
         "deploy": "npm run upload-site"
     },
