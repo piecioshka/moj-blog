@@ -104,3 +104,5 @@ theme_config:
 
   comments:
     disqus_shortname: piecioshka-test
+
+  google_analytics: UA-5140088-39
